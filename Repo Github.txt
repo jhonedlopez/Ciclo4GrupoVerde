@@ -1,0 +1,19 @@
+Link Repo Grupo Verde
+https://github.com/jhonedlopez/Ciclo4GrupoVerde.git
+Token grupo Verde
+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
+
+Comandos de Git
+
+Clonar repositorio remoto
+git clone https://github.com/jhonedlopez/Ciclo4GrupoVerde.git
+
+Agregar archivos a tu area de Staging
+git add .
+
+Agregar los archivos a tu repositorio local
+git commit -m "Aca va el comentario de los cambios"
+
+Agregar los archivos (o cambios) al repositorio online (Github)
+git push
+
