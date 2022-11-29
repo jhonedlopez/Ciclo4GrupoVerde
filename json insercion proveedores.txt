@@ -1,0 +1,12 @@
+{
+"Nombre":"Mercamas",
+"Pais":"Colombia",
+"Ciudad":"Pereira",
+"Cantidad_en_Kilos":120.0,
+"Costo_transporte":56234.0,
+"Materia_defectuosa":0.5295903,
+"Tiempo_de_Entrega":10,
+"Descuento":13900,
+"Plazo_dias_pago":15,
+"Precio":230450.0
+}
