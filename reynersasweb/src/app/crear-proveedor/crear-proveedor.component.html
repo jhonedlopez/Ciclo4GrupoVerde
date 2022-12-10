@@ -1,0 +1,51 @@
+<header>
+    <div class="container">
+        <app-menu></app-menu>
+    </div>
+</header>
+<div class="containerform">
+    <form action="" class="form" [formGroup]="datosformulario">
+        <h3> {{titulo}} </h3>
+        <div class="row">
+            <div class="col">
+                <p><input type="text" name="nombre" formControlName="nombre" >Nombre</p>
+            </div>
+            <div class="col">
+                <p><input type="text" name="pais" formControlName="pais" >Pais</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p><input type="text" name="ciudad" formControlName="ciudad" >Ciudad</p>
+            </div>
+            <div class="col">
+                <p><input type="text" name="cantidad_en_kilos" formControlName="cantidad_en_kilos" >Cantidad en Kilos</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p><input type="text" name="costo_transporte" formControlName="costo_transporte" >Costo de Transporte</p>
+            </div>
+            <div class="col">
+                <p><input type="text" name="materia_defectuosa" formControlName="materia_defectuosa" >Porcentaje materia defectuosa</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p><input type="text" name="tiempo_de_entrega" formControlName="tiempo_de_entrega" >Tiempo de entrega</p>
+            </div>
+            <div class="col">
+                <p><input type="text" name="descuento" formControlName="descuento" >Descuento</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p><input type="text" name="plazo_dias_pago" formControlName="plazo_dias_pago" >Plazo en dias de pago</p>
+            </div>
+            <div class="col">
+                <p><input type="text" name="precio" formControlName="precio" >Precio</p>
+            </div>
+        </div>
+        <button (click)="recibirdatos()">Enviar</button>
+    </form>
+</div>

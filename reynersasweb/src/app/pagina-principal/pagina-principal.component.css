@@ -1,0 +1,40 @@
+
+
+.img {
+  background-image: url(https://www.superprof.co/blog/wp-content/uploads/2021/10/s-546-3x23-1.gif);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; }
+
+#fourohfour {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: center ;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;}
+
+#fourohfour .text {
+    background-image: radial-gradient(50% 50%, ellipse closest-corner, rgba(0, 0, 0, 0) 1%, #000000 100%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;}
+
+#fourohfour .text h3 {
+      font-size: 100px;
+      padding-top: 200px;
+      background-image: url("https://3.bp.blogspot.com/-h9wM3ElH9k8/W7tYJbfZarI/AAAAAAAArsI/He4Z9D_82UMlNsYtGpCDlunH3_m7Cx75ACLcBGAs/s1600/bienvenido.png");
+      background-repeat: no-repeat;
+      background-position: center 30px; 
+}
